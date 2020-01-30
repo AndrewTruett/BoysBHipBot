@@ -103,7 +103,7 @@ async def parse_friend_message(command, message):
 
     background.paste(text_img, (255, 140))
 
-    file_name = "out.png"
+    file_name = "new_friend.png"
     background.save(file_name)
 
     upload_file = discord.File(file_name)
