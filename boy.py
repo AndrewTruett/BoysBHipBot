@@ -35,7 +35,8 @@ async def parse_friend_message(command, message):
     new_friend_name = friends[1]
     old_friend_name = friends[0]
 
-    #print([user.name for user in message.channel.members])
+    print([user.name for user in message.channel.members])
+    print("Attempting to make replace friend meme for", new_friend_name, old_friend_name)
     channel_user_names = [user.name for user in message.channel.members]
     
     #Check if we have both friends in the channel
